@@ -21,6 +21,5 @@ jobs:
         node-version: 19.x
         cache: "pnpm"
 
-    - run: npm install -g pnpm
     - run: pnpm install --frozen-lockfile
     - run: pnpm build
